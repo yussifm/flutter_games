@@ -27,7 +27,7 @@ class _FlameGMainScreenState extends State<FlameGMainScreen> {
   }
 }
 
-class MyGame extends Game {
+class MyGame extends FlameGame {
   @override
   void render(Canvas canvas) {
     // TODO: implement render
