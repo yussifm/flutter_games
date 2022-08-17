@@ -68,13 +68,15 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/Images/Background/
-    - assets/Images/Items/
-    - assets/Images/MainCharacters/
-    - assets/Images/Menu/
-    - assets/Images/Other/
-    - assets/Images/Terrain/
-    - assets/Images/Traps/
+    - assets/
+    - assets/images/
+    - assets/images/Background/
+    - assets/images/Items/
+    - assets/images/MainCharacters/
+    - assets/images/Menu/
+    - assets/images/Other/
+    - assets/images/Terrain/
+    - assets/images/Traps/
 
 
     # Sound /sfx

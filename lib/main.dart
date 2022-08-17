@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Games plugins Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        brightness: Brightness.dark
       ),
       home: const MyHomePage(title: 'Flutter Games plugins Demo'),
     );
@@ -43,7 +44,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
            const Text(
               'Choose Engine',
+              style: TextStyle(fontSize: 30),
             ),
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: (){},
               child: const Text("FlameEngine"),
@@ -58,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: (){},
               child: const Text("RayLib"),
             ),
+            Image.asset('Images/Background/Blue.png'),
            
           ],
         ),
