@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_games/constants/Constvars.dart';
 
 void main() {
   runApp(const MyApp());
@@ -61,7 +62,10 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: (){},
               child: const Text("RayLib"),
             ),
-            Image.asset('Images/Background/Blue.png'),
+            Image.asset('${BgImageDir}Blue.png'),
+            Image.asset('${BgImageDir}Pink.png'),
+            Image.asset('${BgImageDir}Blue.png'),
+            Image.asset('${ItemImageDir}Boxes/Box1/Idle.png'),
            
           ],
         ),

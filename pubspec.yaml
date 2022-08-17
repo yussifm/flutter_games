@@ -72,11 +72,30 @@ flutter:
     - assets/images/
     - assets/images/Background/
     - assets/images/Items/
+    - assets/images/Items/Box1/
+    - assets/images/Items/Box2/
+    - assets/images/Items/Checkpoints/
+    - assets/images/Items/fruits/
     - assets/images/MainCharacters/
+    - assets/images/MainCharacters/MaskDude/
+    - assets/images/MainCharacters/NinjaFrog/
+    - assets/images/MainCharacters/PinkMan/
+    - assets/images/MainCharacters/VirtualGuy/
     - assets/images/Menu/
+    - assets/images/Menu/Buttons/
+    - assets/images/Menu/Levels/
+    - assets/images/Menu/Text/
     - assets/images/Other/
     - assets/images/Terrain/
     - assets/images/Traps/
+    - assets/images/Traps/Arrow/
+    - assets/images/Traps/Blocks/
+    - assets/images/Traps/FallingPlatforms/
+    - assets/images/Traps/Fan/
+    - assets/images/Traps/Fire/
+    - assets/images/Traps/Platforms/
+    - assets/images/Traps/Saw/
+    - assets/images/Traps/Spikes
 
 
     # Sound /sfx
