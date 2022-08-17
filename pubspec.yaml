@@ -95,7 +95,7 @@ flutter:
     - assets/images/Traps/Fire/
     - assets/images/Traps/Platforms/
     - assets/images/Traps/Saw/
-    - assets/images/Traps/Spikes
+    - assets/images/Traps/Spikes/
 
 
     # Sound /sfx

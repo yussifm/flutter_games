@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_games/Screens/flameScreen/Fgmain.dart';
 import 'package:flutter_games/constants/Constvars.dart';
 
 void main() {
@@ -49,7 +50,13 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 20),
             ElevatedButton(
-              onPressed: (){},
+              onPressed: (){
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const FlameGMainScreen()),
+                );
+              
+              },
               child: const Text("FlameEngine"),
 
             ),
@@ -62,10 +69,9 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: (){},
               child: const Text("RayLib"),
             ),
-            Image.asset('${BgImageDir}Blue.png'),
-            Image.asset('${BgImageDir}Pink.png'),
-            Image.asset('${BgImageDir}Blue.png'),
-            Image.asset('${ItemImageDir}Boxes/Box1/Idle.png'),
+          const Image(image: AssetImage("assets/images/Background/Blue.png")),
+            Image.asset("${BgImageDir}Pink.png"),
+            Image.asset("${ItemImageDir}Box1/Idle.png"),
            
           ],
         ),
