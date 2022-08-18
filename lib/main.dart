@@ -72,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
           const Image(image: AssetImage("assets/images/Background/Blue.png")),
             Image.asset("${BgImageDir}Pink.png"),
             Image.asset("${ItemImageDir}Box1/Idle.png"),
+            Image.asset('${MainCharaterImageDir}NinjaFrog/Hit.png'),
            
           ],
         ),
