@@ -35,14 +35,27 @@ class MyGame extends FlameGame {
     await super.onLoad();
     Image playerImge =
         await Flame.images.load('${MainCharaterGImageDir}NinjaFrog/Run.png');
-    SpriteComponent playerSprite = SpriteComponent.fromImage(playerImge,
-        srcSize: Vector2(32, 32), position: Vector2(30, 100));
 
-    add(playerSprite);
+    SpriteComponent player = SpriteComponent.fromImage(
+      playerImge,
+      size: Vector2(32, 32),
+      position: Vector2(100, 100),
+    );
+    await addAll([player, MyPlayer()]);
   }
 
   @override
   void update(double dt) {
     // TODO: implement update
+  }
+}
+
+/// A component that renders the crate sprite, with a 16 x 16 size.
+class MyPlayer extends SpriteComponent {
+  MyPlayer() : super(size: Vector2.all(32));
+
+  @override
+  Future<void> onLoad() async {
+    sprite = await Sprite.load('${MainCharaterGImageDir}NinjaFrog/Run.png');
   }
 }
